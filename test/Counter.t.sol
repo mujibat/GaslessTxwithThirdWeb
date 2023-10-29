@@ -8,7 +8,7 @@ contract CounterTest is Test {
     Counter public counter;
 
     function setUp() public {
-        counter = new Counter();
+        counter = new Counter(0xd9c1a99e9263B98F3f633a9f1A201FA0AFC2A1c2);
         counter.setNumber(0);
     }
 
